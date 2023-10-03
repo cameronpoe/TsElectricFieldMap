@@ -4,6 +4,8 @@ Created by Cameron Poe (cameronpoe@uchicago.edu) and Kepler Domurat-Sousa (domur
 
 Enrico Fermi Institute, University of Chicago
 
+3 October 2023
+
 ## About the extension
 
 This custom TOPAS extension modifies TsMagneticFieldMap to create non-uniform electric fields from a modified Opera-3d `.TABLE` file containing electric field data.

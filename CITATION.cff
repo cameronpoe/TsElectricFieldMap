@@ -3,10 +3,10 @@ title: TsElectricFieldMap
 message: 'If you use this software, please cite it as below.'
 type: software
 authors:
-  - family-names: Domurat-Sousa
-    given-names: Kepler
   - family-names: Poe
     given-names: Cameron M
+  - family-names: Domurat-Sousa
+    given-names: Kepler
 url: 'https://github.com/cameronpoe/TsElectricFieldMap'
 version: 1.0.0
 date-released: '2023-10-3'
