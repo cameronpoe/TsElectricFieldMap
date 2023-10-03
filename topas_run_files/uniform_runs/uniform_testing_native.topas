@@ -1,0 +1,56 @@
+sv:Ph/Default/Modules                   = 1 "g4em-standard_opt4"
+b:Ts/PauseBeforeQuit    = "True"
+i:Ts/NumberOfThreads    = -1
+i:Ts/Seed = 2
+b:Ts/UseQT  = "True"
+
+s:Gr/ViewA/Type             = "OpenGL"
+i:Gr/ViewA/WindowSizeX      = 1024
+i:Gr/ViewA/WindowSizeY      = 768
+d:Gr/ViewA/Theta            = 0 deg
+d:Gr/ViewA/Phi              = 90 deg
+s:Gr/ViewA/Projection       = "Orthogonal"
+d:Gr/ViewA/PerspectiveAngle = 30 deg
+#u:Gr/ViewA/Zoom             = 10000.
+b:Gr/ViewA/HiddenLineRemovalForTrajectories = "True"
+
+s:Gr/ViewB/Type             = "OpenGL"
+i:Gr/ViewB/WindowSizeX      = 1024
+i:Gr/ViewB/WindowSizeY      = 768
+d:Gr/ViewB/Theta            = 75 deg
+d:Gr/ViewB/Phi              = 10 deg
+s:Gr/ViewB/Projection       = "Perspective"
+d:Gr/ViewB/PerspectiveAngle = 30 deg
+u:Gr/ViewB/Zoom             = 3.
+b:Gr/ViewB/HiddenLineRemovalForTrajectories = "True"
+  
+d:Ge/World/HLX          =  9.75 mm
+d:Ge/World/HLY          = 13.5 mm
+d:Ge/World/HLZ          = 17.25 mm
+s:Ge/World/Material     = "Vacuum"
+b:Ge/World/Invisible    = "False"
+                      
+s:Ge/EnclosingBox/Type          = "TsBox"
+s:Ge/EnclosingBox/Parent        = "World"
+d:Ge/EnclosingBox/HLX           = 2.5 mm
+d:Ge/EnclosingBox/HLY           = 5.0 mm
+d:Ge/EnclosingBox/HLZ           = 1.5 mm
+d:Ge/EnclosingBox/TransX        = 4 mm
+d:Ge/EnclosingBox/TransY        = -4 mm
+d:Ge/EnclosingBox/TransZ        = 10 mm
+d:Ge/EnclosingBox/RotX          = 0 deg
+d:Ge/EnclosingBox/RotY          = 0 deg
+d:Ge/EnclosingBox/RotZ          = 0 deg
+s:Ge/EnclosingBox/Material      = "Vacuum"
+s:Ge/EnclosingBox/Color             = "Yellow"
+
+s:Ge/EnclosingBox/Field = "UniformElectromagnetic"
+u:Ge/EnclosingBox/ElectricFieldDirectionX = 1.0
+u:Ge/EnclosingBox/ElectricFieldDirectionY = 0.0
+u:Ge/EnclosingBox/ElectricFieldDirectionZ = 0.0
+d:Ge/EnclosingBox/ElectricFieldStrength   = 1.0 kV/mm
+u:Ge/EnclosingBox/MagneticFieldDirectionX = 0.0
+u:Ge/EnclosingBox/MagneticFieldDirectionY = 0.0
+u:Ge/EnclosingBox/MagneticFieldDirectionZ = 0.0
+d:Ge/EnclosingBox/MagneticFieldStrength   = 0.0 tesla
+
