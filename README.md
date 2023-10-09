@@ -14,7 +14,7 @@ This package also includes a Python script to turn Ansys `.fld`-formatted files 
 
 ## How to use the extension
 
-To install the extension, follow the instructions on the TOPAS installation guide at https://www.topasmc.org/user-guides.
+To install the extension, follow the instructions on the TOPAS installation guide at https://www.topasmc.org/user-guides. The only files you need for installation are in the `topas_extension/` directory.
 
 The `efield_table_creator.py` script takes as inputs the path of your Ansys `.fld` file and then creates an Opera-3d `.TABLE` file in the `non-uniform_efield_tables/` directory.
 
